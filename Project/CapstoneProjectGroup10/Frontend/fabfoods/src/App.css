@@ -1,0 +1,161 @@
+/* components.css */
+
+/* Navbar */
+.navbar {
+  background-color: #ff9800;
+  color: white;
+}
+
+/* HeroSection */
+.hero-section {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.btn-order {
+  background-color: #ff9800;
+  color: white;
+}
+
+/* FeaturedRestaurants */
+.featured-restaurants {
+  text-align: center;
+  padding: 40px 0;
+}
+
+.restaurant-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+  background-color: #fff; /* Optional: Set a background color */
+  display: flex;
+  flex-direction: column; /* Stack the content vertically */
+  align-items: center; /* Center content horizontally */
+}
+
+.restaurant-card img {
+  max-width: 100%; /* Ensure the image doesn't exceed its container */
+  margin-bottom: 10px; /* Add some space between the image and the content */
+}
+
+.restaurant-card h3 {
+  margin: 0;
+}
+
+.restaurant-card p {
+  margin: 5px 0;
+}
+
+.restaurant-sections {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.restaurant-sections button {
+  margin: 0 10px;
+  padding: 8px 15px;
+  background-color: #f0f0f0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.restaurant-sections button:hover {
+  background-color: #ddd;
+}
+
+
+
+
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  
+}
+
+.login-link{
+  margin-left: 580px;
+  
+  
+  
+}
+
+/* Toggle button styles */
+.toggle-button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  height: min-content;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+.search{
+  padding-left: 50px ;
+  margin-top: 5px;
+  
+  
+}
+
+
+
+/* Move the login button to the right */
+.login-button {
+  margin-top: 5px;
+  margin-left: 580px;
+  color: white;
+  background-color: #ff9800;
+  
+}
+
+
+

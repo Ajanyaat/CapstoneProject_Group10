@@ -1,0 +1,110 @@
+/* components.css */
+
+
+
+/* HeroSection */
+.hero-section {
+  background-color: #f7f7f7;
+  text-align: center;
+  padding: 50px 0;
+}
+
+
+.btn-order {
+  background-color: #ffb700;
+  color: white;
+}
+
+
+
+
+
+
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  
+}
+
+.login-link{
+  margin-left: 580px;
+  
+  
+  
+}
+
+/* Toggle button styles */
+.toggle-button {
+  margin: 10px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+
+
+/* Footer styles */
+.footer {
+  
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 3px 0;
+  height: min-content;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+  }
+}
+
+.search{
+  padding-left: 50px ;
+  margin-top: 5px;
+  
+  
+}
+
+
+
+/* Move the login button to the right */
+.login-button {
+  margin-top: 5px;
+  margin-left: 580px;
+  color: white;
+  background-color: #ff9800;
+  
+}
+
+
+
